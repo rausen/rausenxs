@@ -16,4 +16,11 @@ https://www.cnblogs.com/zhixi/p/9996832.html
 
 https://blog.csdn.net/qq_39785489/article/details/82751868
 
-2. 
+2. vue的简单学习
+
+https://blog.csdn.net/IVanLyf/article/details/87930861
+
+3. 解决vue只能通过vue-router来访问的问题：re_path和404页面来
+现在可以输入url来访问页面了
+
+https://www.jianshu.com/p/9eea64371692
