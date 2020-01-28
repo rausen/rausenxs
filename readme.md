@@ -1,0 +1,19 @@
+# Rausenxs's Web Site
+
+## Frontend description
+
+### Based on vue.js
+
+## Backend description
+
+### Based on Django
+
+## Working progress
+
+1. 先在本机建立好开发环境：frontend和backend文件夹，想要做到**前后端分离**，参考如下两个教程：
+
+https://www.cnblogs.com/zhixi/p/9996832.html
+
+https://blog.csdn.net/qq_39785489/article/details/82751868
+
+2. 
