@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<v-navbar></v-navbar>
-		<v-header></v-header>
+//		<v-navbar></v-navbar>
+//		<v-header></v-header>
 		<div class="container">
 			<h1 class="display-3">Page Not Found</h1>
 		</div>
