@@ -24,3 +24,7 @@ https://blog.csdn.net/IVanLyf/article/details/87930861
 现在可以输入url来访问页面了
 
 https://www.jianshu.com/p/9eea64371692
+
+4. vue axios(ajax)域名跨域问题
+
+https://blog.csdn.net/wh_xmy/article/details/87705840

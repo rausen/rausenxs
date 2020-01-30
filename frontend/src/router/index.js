@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 import Test from '../views/test.vue'
+import AjaxTest from '../views/AjaxTest.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -23,6 +24,11 @@ const routes = [
 		path: '/test',
 		name: 'test',
 		component: Test
+	},
+	{
+		path: '/ajaxtest',
+		name: 'ajaxtest',
+		component: AjaxTest
 	},
 	{
 		path: '*',
