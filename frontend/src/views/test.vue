@@ -12,7 +12,7 @@
 		<input type = "text" v-model = "message5">
 		
 		<p> {{ message6 }} </p>
-		<button v-on: click = "reverseMessage6">反转字符串</button>
+		<button v-on:click = "reverseMessage6">反转字符串</button>
 		
 		<p> {{ message7 | message7_func }} </p>
 		
@@ -54,7 +54,12 @@
 		<label for="google1">Google</label>
 		<br>
 		<span>选中值为: {{ message10 }}</span>
+		<div v-bind:style = "styleObject"> rausen!!! </div>
+		
+		<button v-on:click="say('hi')"> Say hi </button>
+		<button v-on:click="say('lo')"> Say lo </button>
 	</div>
+	
 </template>   
  
 <script>
@@ -73,11 +78,18 @@
 				meters: 0,
 				message9: [],
 				message10: 'Runoob',
+				styleObject: {
+					color: 'green',
+					fontSize: '30px',
+				},
 			}
 		},
 		methods: {
 			reverseMessage6() {
 				this.message6 = this.message6.split('').reverse().join('')
+			},
+			say: function (message) {
+				alert(message)
 			}
 		},
 		filters: {
