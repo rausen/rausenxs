@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 import Test from '../views/test.vue'
 import AjaxTest from '../views/AjaxTest.vue'
+import SemanticTestLogin from '../views/SemanticTestLogin.vue'
+import SemanticTestFixedMenu from '../views/SemanticTestFixedMenu.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -29,6 +31,16 @@ const routes = [
 		path: '/ajaxtest',
 		name: 'ajaxtest',
 		component: AjaxTest
+	},
+	{
+		path: '/semantictestlogin',
+		name: 'semantictestlogin',
+		component: SemanticTestLogin
+	},
+	{
+		path: '/semantictestfixedmenu',
+		name: 'semantictestfixedmenu',
+		component: SemanticTestFixedMenu
 	},
 	{
 		path: '*',
