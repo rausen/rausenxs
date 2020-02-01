@@ -6,6 +6,7 @@ import Test from '../views/test.vue'
 import AjaxTest from '../views/AjaxTest.vue'
 import SemanticTestLogin from '../views/SemanticTestLogin.vue'
 import SemanticTestFixedMenu from '../views/SemanticTestFixedMenu.vue'
+import testArticle from '../views/testArticle.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -41,6 +42,11 @@ const routes = [
 		path: '/semantictestfixedmenu',
 		name: 'semantictestfixedmenu',
 		component: SemanticTestFixedMenu
+	},
+	{
+		path: '/testarticle/:id',
+		name: 'testarticle',
+		component: testArticle,
 	},
 	{
 		path: '*',
