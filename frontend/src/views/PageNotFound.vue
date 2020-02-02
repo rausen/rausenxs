@@ -1,27 +1,22 @@
 <template>
 	<div>
-//		<v-navbar></v-navbar>
-//		<v-header></v-header>
-		<div class="container">
-			<h1 class="display-3">Page Not Found</h1>
-		</div>
+		<sui-container class="main" text>
+			<h1> Page not Found!</h1>
+		</sui-container>
 	</div>
 </template>
 
 <script>
-//	import NavBar from './NavBar'
-//	import Header from './Header'
 	export default {
-		name: 'NotFound',
-		components: {
-//			'v-navbar': NavBar,
-//			'v-header': Header
-		}
+		name: 'PageNotFound',
 	}
 </script>
 
 <style scoped>
 	h1 {
 		text-align: center;
+	}
+	.main {
+		margin-top: 7em;
 	}
 </style>

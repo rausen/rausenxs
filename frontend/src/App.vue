@@ -1,35 +1,25 @@
 <template>
-  <div>
-    <router-view/>
-  </div>
+	<div>
+		<v-navbar> </v-navbar>
+		<router-view> </router-view>
+		<v-footbar> </v-footbar>
+	</div>
 </template>
 
 <script>
 import 'semantic-ui-css/semantic.css';
+import NavBar from '@/components/NavBar.vue'
+import FootBar from '@/components/FootBar.vue'
+
 export default {
-  name: 'App',
+	name: 'App',
+	components: {
+		'v-navbar': NavBar,
+		'v-footbar': FootBar,
+	},
 };
 </script>
 
 <style lang="less">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>

@@ -30,9 +30,12 @@ https://www.jianshu.com/p/9eea64371692
 https://blog.csdn.net/wh_xmy/article/details/87705840
 
 5. semantic-vue-ui的安装和使用
-安装参考github下的https://github.com/Semantic-UI-Vue/Semantic-UI-Vue仓库，使用参考仓库中Example文件夹下的例子
+
+安装参考github下的 https://github.com/Semantic-UI-Vue/Semantic-UI-Vue 仓库，使用参考仓库中Example文件夹下的例子
 
 6. 如何在前端webpack的情况下，动态路由不同的article地址：
+
 https://www.jianshu.com/p/a72a1e946555
-在testArticle.vue下有相关的例子，通过methods里的函数来传参
+
+在testArticle.vue下有相关的例子，通过methods里的函数来传参 
 
