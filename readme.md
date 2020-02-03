@@ -39,3 +39,7 @@ https://www.jianshu.com/p/a72a1e946555
 
 在testArticle.vue下有相关的例子，通过methods里的函数来传参 
 
+7. 如何在例如注册页面的地方去除header和footer：
+
+https://segmentfault.com/q/1010000018342611/
+
