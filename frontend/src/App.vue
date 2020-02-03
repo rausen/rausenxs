@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<v-navbar> </v-navbar>
-		<router-view> </router-view>
-		<v-footbar> </v-footbar>
+		<v-navbar v-if="!this.$route.meta.isHideHeader"/>
+		<router-view/>
+		<v-footbar v-if="!this.$route.meta.isHideHeader"/>
 	</div>
 </template>
 

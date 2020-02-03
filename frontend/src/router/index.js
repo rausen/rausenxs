@@ -7,6 +7,7 @@ import AjaxTest from '../views/AjaxTest.vue'
 import SemanticTestLogin from '../views/SemanticTestLogin.vue'
 import SemanticTestFixedMenu from '../views/SemanticTestFixedMenu.vue'
 import testArticle from '../views/testArticle.vue'
+import testNoHeader from '../views/testNoHeader.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -36,7 +37,10 @@ const routes = [
 	{
 		path: '/semantictestlogin',
 		name: 'semantictestlogin',
-		component: SemanticTestLogin
+		component: SemanticTestLogin,
+		meta: {
+			isHideHeader: true
+		}
 	},
 	{
 		path: '/semantictestfixedmenu',
@@ -47,6 +51,14 @@ const routes = [
 		path: '/testarticle/:id',
 		name: 'testarticle',
 		component: testArticle,
+	},
+	{
+		path: '/testnoheader',
+		name: 'testnoheader',
+		component: testNoHeader,
+		meta: {
+			isHideHeader: true
+		}
 	},
 	{
 		path: '*',
