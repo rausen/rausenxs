@@ -43,3 +43,37 @@ https://www.jianshu.com/p/a72a1e946555
 
 https://segmentfault.com/q/1010000018342611/
 
+## Frontend src Structure
+
+```
+.
+├── App.vue
+├── assets
+│   ├── logo.png
+│   ├── rausenxs_16px.jpg
+│   ├── rausenxs_184px.jpg
+│   ├── rausenxs_32px.jpg
+│   └── rausenxs_64px.jpg
+├── components
+│   ├── FootBar.vue           页脚
+│   ├── HelloWorld.vue        测试component格式
+│   ├── NavBar.vue            页眉
+│   └── Test.vue              测试component格式
+├── main.js
+├── router
+│   └── index.js              vue-router的部分
+├── store
+│   └── index.js
+├── views
+│   ├── About.vue             vue主页测试部分
+│   ├── AjaxTest.vue          Ajax(Axios)测试部分
+│   ├── Home.vue              vue主页测试部分
+│   ├── PageNotFound.vue      404页面
+│   ├── SemanticTestFixedMenu.vue   FixedMenu测试部分
+│   ├── SemanticTestLogin.vue Login测试部分
+│   ├── test.vue              基础语法测试
+│   ├── testArticle.vue       Article测试
+│   └── testNoHeader.vue      取消header和footer测试
+└── vue.js
+```
+
