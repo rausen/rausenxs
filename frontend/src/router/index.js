@@ -8,6 +8,9 @@ import SemanticTestLogin from '../views/SemanticTestLogin.vue'
 import SemanticTestFixedMenu from '../views/SemanticTestFixedMenu.vue'
 import testArticle from '../views/testArticle.vue'
 import testNoHeader from '../views/testNoHeader.vue'
+import testMarkdownEditor from '../views/testMarkdownEditor.vue'
+import testMarkdownShower from '../views/testMarkdownShower.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -51,6 +54,19 @@ const routes = [
 		path: '/testarticle/:id',
 		name: 'testarticle',
 		component: testArticle,
+	},
+	{
+		path: '/testmarkdowneditor',
+		name: 'testmarkdowneditor',
+		component: testMarkdownEditor,
+		meta: {
+			isHideHeader: true
+		}
+	},
+	{
+		path: '/testmarkdownshower',
+		name: 'testmarkdownshower',
+		component: testMarkdownShower,
 	},
 	{
 		path: '/testnoheader',

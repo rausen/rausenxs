@@ -43,6 +43,12 @@ https://www.jianshu.com/p/a72a1e946555
 
 https://segmentfault.com/q/1010000018342611/
 
+8. vue下添加Markdown Editor：
+
+https://github.com/hinesboy/mavonEditor
+
+问题很多:**组件会覆盖header内容，不知道如何解决**
+
 ## Frontend src Structure
 
 ```

@@ -1,6 +1,6 @@
 <template lang="html">
 	<div>
-		<sui-menu fixed inverted>
+		<sui-menu class="huge" inverted >
 			<sui-container>
 				<a href="#" is="sui-menu-item" class="header">
 					<img src="../assets/rausenxs_16px.jpg" class="logo">
