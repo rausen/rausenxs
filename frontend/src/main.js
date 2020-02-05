@@ -6,6 +6,7 @@ import axios from 'axios'
 import SuiVue from 'semantic-ui-vue'
 import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
+import './assets/template-theme-white.css'
 
 Vue.prototype.$http = axios
 axios.defaults.baseURL = '/test_api'
